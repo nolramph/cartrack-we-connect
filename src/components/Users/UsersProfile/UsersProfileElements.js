@@ -34,13 +34,8 @@ export const UsersProfileVector = styleC.div
     border-radius: 1.5rem 1.5rem 1.5rem 0;
     position: absolute;
 
-    @media screen and (max-width: 411px){
-        height: 30%;
-        background-size: cover;
-    }
-
-    @media screen and (max-width: 320px){
-        height: 27%;
+    @media screen and (max-width: 360px){
+        height: 35%;
         background-size: cover;
     }
 `
@@ -100,7 +95,7 @@ export const UsersProfileName = styleC.h1
     }
 
     @media screen and (max-width: 320px){
-        font-size: 2.5rem;
+        font-size: ${({snameTitleSize}) => snameTitleSize};
         margin-bottom: 3rem;
     }
 `

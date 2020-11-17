@@ -70,7 +70,7 @@ const LoginPage = ({users, loadUsers, saveSession, optionsState}) => {
                         <ModalInput placeholder="Type your username..." onChange={(e) => handleSession(e)}/>
                         <ModalButton onClick={() => handleSubmit()}><IoMdSend/></ModalButton>
                     </UserDiv>
-                        {showError && (<ModalError>We couldn't your username  <FaSadTear/> </ModalError>) }
+                        {showError && (<ModalError>We couldn't find your username  <FaSadTear/> </ModalError>) }
                 </ModalContent>
             </ModalContainer>
         </>

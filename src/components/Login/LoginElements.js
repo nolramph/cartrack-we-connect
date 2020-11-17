@@ -70,7 +70,7 @@ export const ModalButton = styleC.button
     border: none;
     cursor: pointer;
     font-size: 4rem;
-    margin-left: 0;
+    margin-left: 1.4rem;
     z-index: 999;
     display: flex;
 
@@ -81,9 +81,13 @@ export const ModalError = styleC.div
 `
     display: flex;
     align-items:center;
-    justity-content: center;
+    justify-content: center;
     color : #FF0013;
     opacity: 0.8;
     font-size: 2.6rem;
     margin-top: 2rem;
+    flex-direction: column;
+    text-align: center;
+    
 `
+

@@ -19,7 +19,8 @@ import {
     UsersChatForm,
     UsersChatWrapper,
     UsersChatInput,
-    UsersChatSendButton
+    UsersChatSendButton,
+    LightT
 } from './USersChatElements';
 import UserDetails from '../../commons';
 import PropTypes from 'prop-types';
@@ -88,7 +89,7 @@ const UsersChat = ({loadUsers, createChats, saveSession, users, chats, sessions,
                 </UsersProfileImg>
                 <UsersCloseIcon to="/"><IoMdCloseCircleOutline></IoMdCloseCircleOutline></UsersCloseIcon>
                 <UsersChatWrapper>
-                    <UsersProfileName>{user.name}</UsersProfileName>
+                    <UsersProfileName><LightT>Any word for </LightT><br/> {user.name}?</UsersProfileName>
                     <UsersChatContainer>
                         <UsersConversationDiv>
                         
@@ -111,7 +112,7 @@ const UsersChat = ({loadUsers, createChats, saveSession, users, chats, sessions,
                                     <UsersSenderDiv key={keys}>
                                         <UsersMessage> {chat.messages} </UsersMessage>
                                         <UsersAvatar margin={"0 0 0 1rem"}>
-                                        <Img src={`/images/pic-${chat.id}.png`}/>
+                                        <Img src={`https://www.marlonperalta.com/cartrack/images/pic-${chat.id}.png`}/>
                                         </UsersAvatar>
                                     </UsersSenderDiv>
                               )

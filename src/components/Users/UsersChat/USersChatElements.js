@@ -5,7 +5,7 @@ export const UsersChatWrapper = styleC.div
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 10rem;
+    padding-top: 8rem;
 
     @media screen and (max-width: 411px){
         padding-top: 7rem;
@@ -33,6 +33,7 @@ export const UsersConversationDiv = styleC.div
     position: relative;
     padding: 1rem;
     width: 100%;
+    height: 100%;
     overflow-y: scroll;
 `
 
@@ -121,6 +122,7 @@ export const UsersChatSendButton = styleC.button
         transform: scale(1) translateX(0);
         opacity: 1;
     }
+    
 `
 
 export const UsersChatInput = styleC.input
@@ -153,4 +155,8 @@ export const UsersChatInput = styleC.input
         transform: scale(1) translateX(0);
         opacity: 1;
     }
+`
+export const LightT = styleC.span
+`
+    font-weight: 200;
 `

@@ -10,7 +10,7 @@ const Header = () => {
     return (
            
             <HeaderContainer>
-                <HeaderLogo >
+                <HeaderLogo to="/">
                     <CustomColor>We</CustomColor>Connect
                 </HeaderLogo>
             </HeaderContainer>

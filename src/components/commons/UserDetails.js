@@ -5,7 +5,7 @@ export const HeaderUserContainer = styleC.div
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 
     @media screen and (max-width: 411px){
         margin-bottom: 3rem;
