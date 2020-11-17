@@ -29,3 +29,6 @@ A react based project that features a list of Users with their profiles and to c
 [![Navigation Guide - Profile Page][guide-screenshot-2]](https://www.marlonperalta.com/cartrack/images/we-connect-guide-1.png)
 
 1.) Clickable element to navigate to the communicate to a user page.
+
+[guide-screenshot-1]: https://www.marlonperalta.com/cartrack/images/we-connect-guide-1.png
+[guide-screenshot-2]: https://www.marlonperalta.com/cartrack/images/we-connect-guide-2.png
