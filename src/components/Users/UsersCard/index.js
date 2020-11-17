@@ -19,7 +19,6 @@ import {
 
 const UsersCard = ({ users }) => {
     const userSession = JSON.parse(localStorage.getItem("sessionUser")) ? JSON.parse(localStorage.getItem("sessionUser")) : [];
-
         return (
             <>
             {users.map((user) => (   
@@ -31,9 +30,9 @@ const UsersCard = ({ users }) => {
                         </IconContext.Provider>
                     </CardSendMessageLink>
                     <CardImgContainer to={"/profile/" + user.id}>
-                        <Img src={`/images/pic-${user.id}.png`} alt="User1"/>
+                        <Img src={`https://www.marlonperalta.com/cartrack/images/pic-${user.id}.png`} alt="User1"/>
                     </CardImgContainer>
-                    <CardContentContainer>
+                    <CardContentContainer to={"/profile/" + user.id}>
                         <CardUserName>{user.name}</CardUserName>
                     </CardContentContainer>
                     <CardFooter>

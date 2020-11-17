@@ -84,7 +84,7 @@ const UsersChat = ({loadUsers, createChats, saveSession, users, chats, sessions,
             <UsersProfileCard>
                 <UsersProfileVector/>
                 <UsersProfileImg>
-                    <Img src={`/images/pic-${user.id}.png`} alt={`User${user.id}`} />
+                    <Img src={`https://www.marlonperalta.com/cartrack/images/pic-${user.id}.png`} alt={`User${user.id}`} />
                 </UsersProfileImg>
                 <UsersCloseIcon to="/"><IoMdCloseCircleOutline></IoMdCloseCircleOutline></UsersCloseIcon>
                 <UsersChatWrapper>

@@ -18,6 +18,7 @@ import {loadUsers, filterUsers} from '../../../redux/actions/userActions';
 import PropTypes from 'prop-types';
 import UserDetails from '../../commons';
 
+
 const UsersList = ({loadUsers, filterUsers, users}) => {
     
     const [searchValue, setSearchValue] = useState("");

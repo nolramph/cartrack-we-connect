@@ -27,7 +27,7 @@ export const UsersProfileCard = styleC.div
 
 export const UsersProfileVector = styleC.div
 `
-    background: url('/images/top-vector.svg');
+    background: url('https://www.marlonperalta.com/cartrack/images/top-vector.svg');
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;

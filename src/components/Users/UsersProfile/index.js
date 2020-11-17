@@ -45,7 +45,7 @@ const UsersProfile = ({loadUsers, users, ...props}) => {
             <UsersProfileCard key={user.id}>
                 <UsersProfileVector/>
                 <UsersProfileImg>
-                    <Img src={`/images/pic-${user.id}.png`} alt={`User${user.id}`} />
+                    <Img src={`https://www.marlonperalta.com/cartrack/images/pic-${user.id}.png`} />
                 </UsersProfileImg>
                 <UsersCloseIcon to="/"><IoMdCloseCircleOutline/></UsersCloseIcon>
                         <UsersProfileSendMessage to={"/chat/" + user.id} >
