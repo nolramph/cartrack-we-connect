@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+// import { defaultTheme } from './api/stylesApi';
+// import { useAxiosGetUser } from './api/userApi'
+import Header from './components/Header';
+import UsersList from './components/Users/UsersList';
+import UsersChat from './components/Users/UsersChat';
+import UsersProfile from './components/Users/UsersProfile';
+import LoginPage from './components/Login';
+import configureStore from './redux/configureStore';
+import {Provider as ReduxProvider} from 'react-redux';
 
-function App() {
+const store = configureStore();
+
+const App = () =>  {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ReduxProvider store={store}>
+      <Router>
+      <Header exact component={Header}/>
+        <Switch>
+          <Route exact path="/login" component={LoginPage}/> 
+          <Route exact path="/" component={UsersList}/>
+          <Route exact path="/profile/:paramsId" component={UsersProfile}/>
+          <Route exact path="/chat/:paramsId" component={UsersChat}/>
+        </Switch>
+      </Router>
+    </ReduxProvider>
   );
 }
 
