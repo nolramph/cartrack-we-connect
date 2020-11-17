@@ -19,10 +19,10 @@ A react based project that features a list of Users with their profiles and to c
 
 [![Navigation Guide - Main Dashboard Page][guide-screenshot-1]](https://www.marlonperalta.com/cartrack/images/we-connect-guide-1.png)
 
-1.) Input box to search specific user(s) per given categories within the API.
-2.) Clickable element to navigation to a user's profile.
-3.) Clickable element to navigate to the communicate to a user page.
-4.) Clickable element to redirect to the login page.
+- **1.)** Input box to search specific user(s) per given categories within the API.
+- **2.)** Clickable element to navigation to a user's profile.
+- **3.)** Clickable element to navigate to the communicate to a user page.
+- **4.**) Clickable element to redirect to the login page.
 
 ### Navigation Guide - Profile Page
 
