@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cartrack-we-connect/static/css/main.8dd561b6.chunk.css",
+    "main.js": "/cartrack-we-connect/static/js/main.3fc51a02.chunk.js",
+    "main.js.map": "/cartrack-we-connect/static/js/main.3fc51a02.chunk.js.map",
+    "runtime-main.js": "/cartrack-we-connect/static/js/runtime-main.818cc3e6.js",
+    "runtime-main.js.map": "/cartrack-we-connect/static/js/runtime-main.818cc3e6.js.map",
+    "static/js/2.5897b806.chunk.js": "/cartrack-we-connect/static/js/2.5897b806.chunk.js",
+    "static/js/2.5897b806.chunk.js.map": "/cartrack-we-connect/static/js/2.5897b806.chunk.js.map",
+    "index.html": "/cartrack-we-connect/index.html",
+    "static/css/main.8dd561b6.chunk.css.map": "/cartrack-we-connect/static/css/main.8dd561b6.chunk.css.map",
+    "static/js/2.5897b806.chunk.js.LICENSE.txt": "/cartrack-we-connect/static/js/2.5897b806.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.818cc3e6.js",
+    "static/js/2.5897b806.chunk.js",
+    "static/css/main.8dd561b6.chunk.css",
+    "static/js/main.3fc51a02.chunk.js"
+  ]
+}
